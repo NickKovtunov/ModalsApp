@@ -4,7 +4,7 @@
 
       <section>
         <div class="container">
-          <a href="/">Страница модальных окон</a><br>
+          <a href="/ModalsApp/">Страница модальных окон</a><br>
           <!-- modal with validate -->
           <button class="btn btnPrimary" @click="signIn = !signIn">sign In</button>
           <signIn v-show="signIn" @close="signIn = false" @change-modal="signIn = false;signUp = true"/>

@@ -4,7 +4,7 @@
 
       <section>
         <div class="container">
-          <a href="/reg">Страница регистрации</a><br>
+          <a href="/ModalsApp/reg">Страница регистрации</a><br>
           <!-- first modal -->
           <button class="btn btnPrimary" @click="modalFirst = !modalFirst">Show first modal</button>
           <modals
